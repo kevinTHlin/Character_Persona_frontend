@@ -17,7 +17,11 @@ function postData(url, data) {
 }
 
 
+
 function submit(){
+    const pleasewait = "DATA PROCESSING AND MODEL BUILDING...PLEASE WAIT"
+    document.getElementById('resultText').innerHTML=pleasewait
+    
     const courseid=document.getElementById('courseid').value;
     const startdate=document.getElementById('startdate').value;
     const studentid=document.getElementById('studentid').value;
