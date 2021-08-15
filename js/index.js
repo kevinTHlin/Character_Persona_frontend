@@ -24,11 +24,13 @@ function submit(){
     
     const courseid=document.getElementById('courseid').value;
     const startdate=document.getElementById('startdate').value;
+    const enddate=document.getElementById('enddate').value;
     const studentid=document.getElementById('studentid').value;
     
     const data = {
         courseid,
         startdate,
+        enddate,
         studentid
     }
     
